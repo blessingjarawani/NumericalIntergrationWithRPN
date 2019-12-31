@@ -1,0 +1,11 @@
+C:\Users\bjar00\source\repos\IntregralSolution\IntregralSolution\bin\Debug\netcoreapp3.0\IntregralSolution.exe
+C:\Users\bjar00\source\repos\IntregralSolution\IntregralSolution\bin\Debug\netcoreapp3.0\IntregralSolution.deps.json
+C:\Users\bjar00\source\repos\IntregralSolution\IntregralSolution\bin\Debug\netcoreapp3.0\IntregralSolution.runtimeconfig.json
+C:\Users\bjar00\source\repos\IntregralSolution\IntregralSolution\bin\Debug\netcoreapp3.0\IntregralSolution.runtimeconfig.dev.json
+C:\Users\bjar00\source\repos\IntregralSolution\IntregralSolution\bin\Debug\netcoreapp3.0\IntregralSolution.dll
+C:\Users\bjar00\source\repos\IntregralSolution\IntregralSolution\bin\Debug\netcoreapp3.0\IntregralSolution.pdb
+C:\Users\bjar00\source\repos\IntregralSolution\IntregralSolution\obj\Debug\netcoreapp3.0\IntregralSolution.csprojAssemblyReference.cache
+C:\Users\bjar00\source\repos\IntregralSolution\IntregralSolution\obj\Debug\netcoreapp3.0\IntregralSolution.AssemblyInfoInputs.cache
+C:\Users\bjar00\source\repos\IntregralSolution\IntregralSolution\obj\Debug\netcoreapp3.0\IntregralSolution.AssemblyInfo.cs
+C:\Users\bjar00\source\repos\IntregralSolution\IntregralSolution\obj\Debug\netcoreapp3.0\IntregralSolution.dll
+C:\Users\bjar00\source\repos\IntregralSolution\IntregralSolution\obj\Debug\netcoreapp3.0\IntregralSolution.pdb
