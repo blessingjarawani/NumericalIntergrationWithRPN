@@ -36,11 +36,11 @@ namespace IntregralSolution
                 input = input.Replace(" ", "");
                 var trap = new Trapezodial();
                 var s = trap.TrapezoidalIntergral(lower, upper, input.ToUpper());
-                Console.WriteLine(s);
+                Console.WriteLine($"Intergration by Trapezoidal Method {s}");
 
                 var sim = new Simpson();
                 var ans = sim.SimpsonIntergral(lower, upper, input.ToUpper());
-                Console.WriteLine(ans);
+                Console.WriteLine($"Intergration by Simpson's Method {ans}");
             }
             catch (Exception ex)
             {
