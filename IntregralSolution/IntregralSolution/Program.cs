@@ -15,7 +15,10 @@ namespace IntregralSolution
                 string input = "";
                 Console.WriteLine("Enter Equation e.g  x ^ 2 + 7 * x - 1 / x  N.B Enter X as variable");
                 float lower, upper = 0;
+              
                 input = Console.ReadLine();
+                // input = "1 * x ^ 2 + 7 * x - 1 / x";
+                // input = "1 * x ^ 3 + 2 * x  ^ 2 + 3 * x - 4";
                 while (true)
                 {
                     Console.WriteLine("Enter Lower Bound");

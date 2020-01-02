@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bjar00\\source\\repos\\IntregralSolution\\IntregralSolution\\IntregralSolution.csproj": {}
+    "C:\\Users\\bjar00\\Source\\Repos\\NumericalIntergrationWithRPN\\IntregralSolution\\IntregralSolution\\IntregralSolution.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bjar00\\source\\repos\\IntregralSolution\\IntregralSolution\\IntregralSolution.csproj": {
+    "C:\\Users\\bjar00\\Source\\Repos\\NumericalIntergrationWithRPN\\IntregralSolution\\IntregralSolution\\IntregralSolution.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bjar00\\source\\repos\\IntregralSolution\\IntregralSolution\\IntregralSolution.csproj",
+        "projectUniqueName": "C:\\Users\\bjar00\\Source\\Repos\\NumericalIntergrationWithRPN\\IntregralSolution\\IntregralSolution\\IntregralSolution.csproj",
         "projectName": "IntregralSolution",
-        "projectPath": "C:\\Users\\bjar00\\source\\repos\\IntregralSolution\\IntregralSolution\\IntregralSolution.csproj",
+        "projectPath": "C:\\Users\\bjar00\\Source\\Repos\\NumericalIntergrationWithRPN\\IntregralSolution\\IntregralSolution\\IntregralSolution.csproj",
         "packagesPath": "C:\\Users\\bjar00\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bjar00\\source\\repos\\IntregralSolution\\IntregralSolution\\obj\\",
+        "outputPath": "C:\\Users\\bjar00\\Source\\Repos\\NumericalIntergrationWithRPN\\IntregralSolution\\IntregralSolution\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

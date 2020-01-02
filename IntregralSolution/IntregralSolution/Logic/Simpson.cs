@@ -25,19 +25,29 @@ namespace IntregralSolution.Logic
 
         public double SimpsonIntergral(float lower, float upper, string expression)
         {
-            double iterator = 201;
-            double interval_size = (upper - lower)
+            double iterator = 200;
+            double evenSum =0 , oddSum = 0;
+            double count = iterator / 2;
+
+            double distance = (upper - lower)
                                   / iterator;
             var sum = GetFunctionValue(lower,expression) + GetFunctionValue(upper,expression);
 
-           for (int i = 1; i < iterator; i++)
+            for (int i = 1; i <= count; i++)
             {
-                if (i % 3 == 0)
-                    sum = sum + 2 * GetFunctionValue(lower + i * interval_size,expression);
-                else
-                    sum = sum + 3 * GetFunctionValue(lower + i * interval_size,expression);
+                oddSum += GetFunctionValue((lower + (2 * i - 1 ) * distance), expression);
+               
             }
-            return (3 * interval_size / 8) * sum;
+            oddSum *= 4;
+            for (int i = 1; i < count; i++)
+            {
+                evenSum += GetFunctionValue((lower + (i * 2) * distance), expression);
+                
+            }
+            evenSum *= 2;
+            sum += oddSum + evenSum;
+            sum *= (distance / 3);
+            return  sum;
         }
     }
     
