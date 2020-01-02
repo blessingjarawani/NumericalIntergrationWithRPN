@@ -17,7 +17,7 @@ namespace IntregralSolution
                 float lower, upper = 0;
               
                 input = Console.ReadLine();
-                // input = "1 * x ^ 2 + 7 * x - 1 / x";
+                 input = "1 * x ^ 2 + 7 * x - 1 / x";
                 // input = "1 * x ^ 3 + 2 * x  ^ 2 + 3 * x - 4";
                 while (true)
                 {

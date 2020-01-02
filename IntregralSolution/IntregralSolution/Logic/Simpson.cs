@@ -36,14 +36,13 @@ namespace IntregralSolution.Logic
             for (int i = 1; i <= count; i++)
             {
                 oddSum += GetFunctionValue((lower + (2 * i - 1 ) * distance), expression);
+                if (i < count)
+                {  
+                    evenSum += GetFunctionValue((lower + (i * 2) * distance), expression);
+                }
                
             }
             oddSum *= 4;
-            for (int i = 1; i < count; i++)
-            {
-                evenSum += GetFunctionValue((lower + (i * 2) * distance), expression);
-                
-            }
             evenSum *= 2;
             sum += oddSum + evenSum;
             sum *= (distance / 3);
