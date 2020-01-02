@@ -11,13 +11,13 @@ namespace IntregralSolution
         {
             try
             {
-               
+
                 string input = "";
                 Console.WriteLine("Enter Equation e.g  x ^ 2 + 7 * x - 1 / x  N.B Enter X as variable");
                 float lower, upper = 0;
-              
-                 input = Console.ReadLine();
-                 //input = "1 * x ^ 2 + 7 * x - 1 / x";
+
+                input = Console.ReadLine();
+                //input = "1 * x ^ 2 + 7 * x - 1 / x";
                 // input = "1 * x ^ 3 + 2 * x  ^ 2 + 3 * x - 4";
                 while (true)
                 {
@@ -34,13 +34,13 @@ namespace IntregralSolution
                 }
 
                 input = input.Replace(" ", "");
-                var trap = new Trapezodial();
-                var s = trap.TrapezoidalIntergral(lower, upper, input.ToUpper());
-                Console.WriteLine($"Intergration by Trapezoidal Method {s}");
+                var trapezodial = new Trapezodial();
+                var result = trapezodial.TrapezoidalIntergral(lower, upper, input.ToUpper());
+                Console.WriteLine($"Intergration by Trapezoidal Method {result}");
 
-                var sim = new Simpson();
-                var ans = sim.SimpsonIntergral(lower, upper, input.ToUpper());
-                Console.WriteLine($"Intergration by Simpson's Method {ans}");
+                var simpson = new Simpson();
+                result = simpson.SimpsonIntergral(lower, upper, input.ToUpper());
+                Console.WriteLine($"Intergration by Simpson's Method {result}");
             }
             catch (Exception ex)
             {
